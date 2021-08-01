@@ -16,8 +16,7 @@
                 <input type="checkbox" name="authorities"
                        th:each="role : ${allRoles}"
                        th:text="${role.name}"
-                       th:value="${role.id}"
-                />
+                       th:value="${role.id}"/>
             </label>
         </p>
         <input type="submit" value="Add User">
